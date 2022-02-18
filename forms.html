@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My feedback form">
+    <meta name="author" content="Opeyemi Ijadele">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>My feedback form</h1>
+    <form action="">
+       <ul>
+           <li><label for="name">Name:</label>
+            <input type="text"></li>
+           
+           <li><label for="email">Email:</label> 
+            <input type="email"></li>
+
+          <li><label for="password">Password:</label>
+            <input type="password"></li>
+       </ul> 
+
+       <ul>
+           <li>Please check all the emotions
+               that apply to you:
+           </li>
+           <ul style="list-style-type: disc;">
+               <li>Angry<input type="checkbox" selected></li>
+               <li>Sad <input type="checkbox" ></li>
+               <li>Happy <input type="checkbox"></li>
+               <li>Ambivalent <input type="checkbox"></li>
+
+           </ul>
+               <li>How satisfied were you with our service?</li>
+               <ul style="list-style-type: disc;">
+                   <li>Very satisfied <input type="radio" name="response" selected></li>
+                   <li>Satisfied <input type="radio"  name="response"></li>
+                   <li>Didn't care <input type="radio"  name="response"></li>
+                   <li> Dissatisfied <input type="radio"  name="response"></li>
+                   <li>Very dissatisfied <input type="radio" name="response"></li>
+
+               </ul>
+               <li>Further comments: 
+                   <textarea name="" id="" cols="30" rows="3"></textarea>
+
+               </li>
+               <li>Bio photo: <input type="text"> <button style="border-radius: 10px;">Choose...</button> </li>
+               <li>Location visited: 
+                   <select name="location" id="">
+                       <option value="Select location">Select location</option>
+                       <option value="lagos">Lagos</option>
+                       <option value="Ibadan"></option>
+                       
+                   </select>
+               </li>
+               <br>      
+           
+       </ul>
+       <ul >
+        <li><button style="border-radius: 10px;">submit</button></li>
+       </ul>
+    </form>
+</body>
+</html>
